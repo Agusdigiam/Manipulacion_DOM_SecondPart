@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: beige;
+}
+
+/*Titulo Principal*/
+
+.titulo_principal {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 8px;
+}
+
+/*Descripcion*/
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 100px;
+}
+
+
+/*Inputs*/
+
+.contenedor {
+    text-align: center;
+}
+
+
+/*Boton*/
+#button {
+    text-align: center;
+
+}
+
+
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 34px;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 1s;
+    color: white;
+}
